@@ -9,7 +9,7 @@
 #include <sstream>
 #include <functional>
 
-namespace asilla {
+namespace egt {
     template <typename K, typename V> 
     class map : public container<V, std::unordered_map<K, V>> {
     public:
